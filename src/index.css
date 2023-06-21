@@ -1,0 +1,23 @@
+.form-course,
+.form-weight,
+.form-grade,
+.form-trash {
+  margin-bottom: 2%;
+}
+
+@media (min-width: 992px) {
+  .form-course,
+  .form-weight,
+  .form-grade,
+  .form-trash {
+    margin-bottom: 0;
+  }
+
+  .card {
+    width: 50%;
+  }
+
+  .line {
+    display: none;
+  }
+}
